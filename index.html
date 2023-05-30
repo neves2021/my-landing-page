@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>A minha página</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="favicon.ico">
+  <script src="https://kit.fontawesome.com/3cd411d375.js" crossorigin="anonymous"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body onload="displayPage()">
+
+  <div id="loader"></div>
+
+  <div id="myDiv" class="animate-bottom">
+    <div class="container">
+      <div class="rectangle">
+        <h1 class="animate__animated animate__fadeInLeft">Hi! I'm João&#128075;</h1>
+        <img src="image.jpg" id="myPicture" onmouseover="newPicture()" onmouseout="oldPicture()" alt="a photo of me">
+        <p class="animate__animated animate__fadeInRight animate__delay-1s">I'm a <span>translator</span> specialized in IT &&<br>a soon-to-be <span>web developer</span>(&#129310;).</p>
+      </div>
+    <p><a href="mailto:joao.correia.neves@gmail.com" target="_blank" class="btn">Email me</a></p>
+  </div>
+
+  <div class="image-carousel">
+    <div class="new-container" id="img">
+      <img src="https://photos.smugmug.com/photos/i-kBgc6xW/0/XL/i-kBgc6xW-XL.jpg" alt="">
+      <img src="https://photos.smugmug.com/photos/i-w3KzH3s/0/XL/i-w3KzH3s-XL.jpg" alt="">
+      <img src="https://photos.smugmug.com/photos/i-4G5vKBS/0/XL/i-4G5vKBS-XL.jpg" alt="">
+      <img src="https://photos.smugmug.com/photos/i-tMrkwBH/0/XL/i-tMrkwBH-XL.jpg" alt="">
+      <img src="https://photos.smugmug.com/photos/i-25dVdH9/0/XL/i-25dVdH9-XL.jpg" alt="">
+      <img src="https://photos.smugmug.com/photos/i-L3t47zG/0/XL/i-L3t47zG-XL.jpg" alt="">
+      <img src="https://photos.smugmug.com/photos/i-jm6tVM9/0/XL/i-jm6tVM9-XL.jpg" alt="">
+      <img src="https://photos.smugmug.com/photos/i-VSzFq6Q/0/XL/i-VSzFq6Q-XL.jpg" alt="">
+      <img src="https://photos.smugmug.com/photos/i-2dzBxMz/0/XL/i-2dzBxMz-XL.jpg" alt="">
+      <img src="https://photos.smugmug.com/photos/i-869dpJm/0/XL/i-869dpJm-XL.jpg" alt="">
+    </div>
+ </div>
+ <h6 id="copyright-images">©Lourenço creative photography</h6>
+ 
+ <div class="form-box">
+    <form action="" id="myForm">
+      <h1 class="form-heading">Feedback</h1>
+      <input type="text" id="user" class="form-control" placeholder="Tell me your opinion about my landing page...">
+      <button type="submit" id="form-button">Submit</button>
+    </form>
+ </div>
+
+  <div class="social-network">
+    <ul>
+        <li><a href="https://www.linkedin.com/in/jo%C3%A3o-correia-neves-4a0410125/" target="_blank" rel="noopener"><i class="fa-brands fa-linkedin" style="color: #eefafa;"></i></a></li>
+        <li><a href="https://github.com/neves2021" target="_blank" rel="noopener"><i class="fa-brands fa-square-github" style="color: #eefafa;"></i></a></li>
+    </ul>
+  </div>
+
+  <script src="script.js" defer></script>
+
+</body>
+
+</html>
